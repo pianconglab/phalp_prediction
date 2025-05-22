@@ -1,0 +1,2 @@
+data/RF_clf_SeqVecEmbeddings_trained.pickle filter=lfs diff=lfs merge=lfs -text
+data/model_directory/weights.hdf5 filter=lfs diff=lfs merge=lfs -text
