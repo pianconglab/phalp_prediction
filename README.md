@@ -18,9 +18,9 @@ docker build -t phalp_prediction .  # 构建 docker 映像
 ## 运行
 
 ```bash
-docker run --rm -p 8080:8080 bio-embeddings-web
+docker run --rm -p 8080:8080 phalp_prediction
 
-docker run --rm -p 8080:8080 bio-embeddings-web -w 2  # 带参数，2线程
+docker run --rm -p 8080:8080 phalp_prediction -w 2  # 带参数，2线程
 ```
 
 ## API
