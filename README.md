@@ -52,7 +52,7 @@ content-type: application/json
 
 ### /classify
 
-[PhaLP](https://www.mdpi.com/1999-4915/13/7/1240) 的 VAL/endolysin 分类模型，接收 JSON 格式的 { "sequence": "..." }，成功则返回 { "result": [...] }，状态码200，否则返回其他错误码与错误原因。
+[PhaLP](https://www.mdpi.com/1999-4915/13/7/1240) 的 VAL/endolysin 分类模型，接收 JSON 格式的 { "sequence": "..." }，成功则返回 { "result": "" }，状态码200，否则返回其他错误码与错误原因。
 
 #### 请求示例
 
@@ -78,3 +78,30 @@ content-type: application/json
 ## 已知问题
 
 1. 容器内 CUDA 版本为 11.7，无法在最低支持 CUDA 11.8 及以上的 GPU 上运行。
+
+## 许可证
+
+```
+MIT License
+
+Copyright (c) 2025 AIDD_CPU
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+```
